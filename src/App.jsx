@@ -1,6 +1,8 @@
 import React from 'react';
 import ButtonComponent from './components/Button';
 import { InputComponent } from './components/InputComponent';
+import { SelectComponent } from './components/SelectComponent';
+
 
 
 
@@ -9,6 +11,7 @@ const App = () => {
   <div>
     <ButtonComponent/>
     <InputComponent/>
+    <SelectComponent/>
   </div>
  )
 };
