@@ -3,6 +3,7 @@ import ButtonComponent from './components/Button';
 import { InputComponent } from './components/InputComponent';
 import { SelectComponent } from './components/SelectComponent';
 import FormComponent from './components/FormComponent';
+import TableComponent from './components/TableComponent';
 
 
 
@@ -15,6 +16,7 @@ const App = () => {
     <InputComponent/>
     <SelectComponent/>
     <FormComponent/>
+    <TableComponent/>
   </div>
  )
 };
