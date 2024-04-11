@@ -4,6 +4,7 @@ import { InputComponent } from './components/InputComponent';
 import { SelectComponent } from './components/SelectComponent';
 import FormComponent from './components/FormComponent';
 import TableComponent from './components/TableComponent';
+import DatePickerComponent from './components/DatePickerComponent';
 
 
 
@@ -17,6 +18,7 @@ const App = () => {
     <SelectComponent/>
     <FormComponent/>
     <TableComponent/>
+    <DatePickerComponent/>
   </div>
  )
 };
